@@ -5,7 +5,7 @@ public class Date {
     public int month;
     public int year;
 
-    public void Date(int date, int month, int year) {
-        System.out.println(date + "." + month + "." + year);
+    public String Date(int date, int month, int year) {
+        return date + "." + month + "." + year;
     }
 }

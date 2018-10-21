@@ -1,7 +1,10 @@
 package com.company;
 
 public class Hospital {
-    public String name;
-    public Address address;
-    public Phone phone;
+    String name;
+    Address hospitalAddress;
+    Phone hospitalPhone;
+    protected Department department = new Department();
+
+    Person []person1;
 }

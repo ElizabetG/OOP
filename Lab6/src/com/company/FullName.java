@@ -1,8 +1,11 @@
 package com.company;
 
-public class FullName extends Person {
-
-    public String getFullName(String givenName, String middleName, String familyName) {
-        return "" + givenName + middleName + familyName;
+public class FullName {
+    String name;
+    public FullName(String givenName,String middleName, String familyName) {
+        name = givenName + " " + middleName + " " + familyName;
+    }
+    public String FullName() {
+        return name;
     }
 }
